@@ -1,9 +1,11 @@
+/*set background for entire body of page */
 body{
   background-image: url(images/white-background.jpg);
   background-size: cover;
   background: no-repeat fixed center;
 }
 
+/* Set parameters for Div */
 div{
   width: 300px;
   border: 15px;
@@ -12,24 +14,28 @@ div{
   color: #7D504F;
 }
 
+/*Set parameters for anchor */
 a{
   font-family: 'Trebuchet MS';
   color: #3B0D11;
   text-align: center;
   font-style: italic;
 }
+/* Styled links using pseudo-classes */
 a:link    { color: #B88B4A;  }
 a:visited { color: rgb(4, 114, 117);   }
 a:hover   { color: rgb(2, 73, 67); }
 a:active  { color: rgb(8, 23, 233);  }
 
-
+/* define center */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+/*set parameters for H1 text */
 
 h1 {
   font-family: 'Trebuchet MS';
@@ -39,6 +45,8 @@ h1 {
   font-style: strong;
 }
 
+/* Set parameters for H2 text */
+
 h2{font-family: 'Trebuchet MS';
   font-size: 30px;
   color: #7D4F50;
@@ -47,12 +55,16 @@ h2{font-family: 'Trebuchet MS';
 
 }
 
+/* Set parameters for h3 text */
+
 h3{
   font-family: 'Trebuchet MS';
   font-size: 20px;
   text-align: center;
   color: #7D4F50;
 }
+
+/* Set parameters for h6 text */
 
 h6{
   font-family: Impact;
@@ -61,7 +73,7 @@ h6{
   text-align: center;
 }
 
-
+/* Set font, color, and alignment for paragraph text */
 
 p{
   font-family: 'Trebuchet MS';
@@ -70,12 +82,16 @@ p{
   
 }
 
+/* Set parameters for unordered list */
+
 ul{
   font-family: 'Trebuchet MS';
   color: #3B0D11;
   text-align: center;
   list-style-position: inside;
 }
+
+/* set parameters for ordered list */
 
 ol{
   font-family: 'Trebuchet MS';
