@@ -1,7 +1,6 @@
 /*set background for entire body of page */
 body{
   background-image: url(images/white-background.jpg);
-  background-size: cover;
   background: no-repeat fixed center;
 }
 
